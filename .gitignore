@@ -1,0 +1,12 @@
+/crash-reports
+/blueprints
+/logs
+/patchouli_books
+/saves
+/schematics
+patchouli_data.json
+options.txt
+servers.dat
+servers.dat_old
+usercache.json
+usernamecache.json
