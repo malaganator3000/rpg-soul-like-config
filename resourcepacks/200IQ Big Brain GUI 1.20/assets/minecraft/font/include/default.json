@@ -1,0 +1,211 @@
+{
+	"providers": [
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/brewing_guide_left.png",
+			"ascent": 13,
+			"height": 166,
+			"chars": [
+				"\uEff1"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/brewing_guide_right.png",
+			"ascent": 27,
+			"height": 193,
+			"chars": [
+				"\uEff2"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/furnace_fuel_right.png",
+			"ascent": 27,
+			"height": 200,
+			"chars": [
+				"\uEff3"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/furnace_fuel_right2.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uEff6"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/armorertrades.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uE001"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/butchertrades.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uE002"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/cartogrophertrades.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uE003"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/clerictrades.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uE004"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/farmertrades.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uE02C"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/fishermantrades.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uEff7"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/fletchertrades.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uEff8"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/leatherworkertrades.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uE031"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/librariantrades.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uE030"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/masontrades.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uE03A"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/shepardtrades.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uE03B"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/toolsmithtrades.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uE03C"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/wanderingtradertrades.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uE03D"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/weaponsmithtrades.png",
+			"ascent": 31,
+			"height": 200,
+			"chars": [
+				"\uE03F"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/guipatch.png",
+			"ascent": 28,
+			"height": 200,
+			"chars": [
+				"\uE077"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/cartographyinfo.png",
+			"ascent": 13,
+			"height": 166,
+			"chars": [
+				"\uE078"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/smithing_table_1.png",
+			"ascent": 13,
+			"height": 166,
+			"chars": [
+				"\uE081"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/smithing_table_2.png",
+			"ascent": 13,
+			"height": 166,
+			"chars": [
+				"\uE080"
+			]
+		},
+		{
+			"type": "bitmap",
+			"file": "minecraft:gui/container/filler.png",
+			"ascent": 5,
+			"height": 97,
+			"chars": [
+				"\uE079"
+			]
+		}
+	]
+}

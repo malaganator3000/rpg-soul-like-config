@@ -1,0 +1,4 @@
+hello! if you're reading this you might be wanting to have big brain gui in your language...
+simple rename the "en_us" language file to whatever language file you need to use.
+My resource pack doesn't change any text!
+
