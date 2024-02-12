@@ -1,0 +1,23 @@
+{
+  "id": "Mazmorra-de-las-profundidades_-331-120-264",
+  "name": "Mazmorra de las profundidades",
+  "groupName": "Waypoints",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--12779100-waypoint-icon.png",
+  "x": -331,
+  "y": 120,
+  "z": -264,
+  "r": 61,
+  "g": 1,
+  "b": 164,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

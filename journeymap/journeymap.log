@@ -1,12 +1,11 @@
-[03:13:02] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[03:13:02] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[03:13:02] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[03:13:02] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[03:13:02] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.minecolonies.core.compatibility.journeymap.JourneymapPlugin
-[03:13:02] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapIntegration
-[03:13:02] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[03:13:02] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[03:13:02] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.9.18, built with forge 1.20.1-47.1.46
+[19:01:02] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[19:01:02] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[19:01:02] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[19:01:02] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[19:01:02] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: com.minecolonies.core.compatibility.journeymap.JourneymapPlugin
+[19:01:02] [Render thread/INFO] [PluginHelper] Initialized IClientPlugin: net.blay09.mods.waystones.compat.JourneyMapIntegration
+[19:01:02] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[19:01:02] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.9.18, built with forge 1.20.1-47.1.46
 forge: 47.2.20
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=es_es, locale=es_es
 Features: 
@@ -18,306 +17,723 @@ Features:
 	MapSurface : singleplayer = true , multiplayer = true
 	MapCaves : singleplayer = true , multiplayer = true
 	MapBiome : singleplayer = true , multiplayer = true
-MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.9.18, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
+MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.9.18, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.821875, positionY=0.2512196, effectVertical=true, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_square, showSelf=true, selfDisplayScale=1.0, showGrid=false, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=-102, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=false, position=jm.minimap.position_bottomright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
 MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.9.18, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
-FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.18, zoomLevel=4, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.18, zoomLevel=1, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=true, playerDisplayScale=1.0, showMobs=true, showPets=true, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=true, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=true, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.18, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.18, port=8080, enabled=false}
-CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.18, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=null, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.9.18, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[03:13:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[03:13:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[03:13:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[03:13:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[03:13:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[03:13:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[03:13:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[03:13:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[03:13:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[03:13:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[03:13:03] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 318.25ms
-[03:13:09] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[03:13:09] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[03:13:09] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[03:13:09] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[03:13:09] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 154.85ms
-[03:13:33] [Netty Epoll Client IO #0/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[03:13:47] [Render thread/INFO] [JourneymapClient] World UID is set to: 1591bbed-a7cf-4708-95d3-d5f1bec07a61
-[03:13:50] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for projectvibrantjourneys
-[03:13:50] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
-[03:13:50] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
-[03:13:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
-[03:13:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
-[03:13:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
-[03:13:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
-[03:13:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
-[03:13:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
-[03:13:50] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[03:13:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
-[03:13:50] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[03:13:50] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[03:13:50] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[03:13:50] [Render thread/WARN] [PropertiesBase] core (Initialized) Bad configField entry during updateFrom(): optionsManagerViewed=null
-[03:13:50] [Render thread/INFO] [WaypointStore] Loaded 3 waypoints from /home/malaganator/minecraft/RPG Soul Like/journeymap/data/mp/Servidor~de~Minecraft_1591bbed~a7cf~4708~95d3~d5f1bec07a61/waypoints
-[03:13:50] [Render thread/INFO] [JourneymapClient] Mapping started in /home/malaganator/minecraft/RPG Soul Like/journeymap/data/mp/Servidor~de~Minecraft_1591bbed~a7cf~4708~95d3~d5f1bec07a61/overworld. Memory: 5120MB total, 1422MB free 
-[03:13:50] [Render thread/INFO] [WaypointGroupStore] Loaded WaypointGroups file /home/malaganator/minecraft/RPG Soul Like/journeymap/data/mp/Servidor~de~Minecraft_1591bbed~a7cf~4708~95d3~d5f1bec07a61/waypoints/waypoint_groups.json
-[03:13:50] [Render thread/INFO] [ChatLog] JourneyMap: Presione [;]
-[03:14:14] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[03:14:23] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[03:15:21] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[07:08:09] [Render thread/INFO] [DeathPointHandler] Malaganator died at BlockPos{x=52, y=76, z=-473}. Deathpoints enabled: true. Deathpoint created: true
-[08:09:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
-[08:09:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[08:09:00] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/phantomcreeper.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:00] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:00] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/supremebonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:00] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:00] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:00] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:00] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:00] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for epicsamurai:textures/entity_icon/jorogumo.png
-[08:09:03] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:03] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:03] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:21] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:28] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
-[08:09:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for epicsamurai:textures/entity_icon/jorogumo.png
-[08:09:31] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:31] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/phantomcreeper.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:31] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/supremebonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
-[08:09:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
-[08:09:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[08:09:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:35] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:09:50] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:10:42] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/maggot.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:10:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/summoned_zombie.png
-[08:10:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/summoned_skeleton.png
-[08:11:14] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/summoned_zombie.png
-[08:11:14] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/summoned_skeleton.png
-[08:11:14] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:14] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:14] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
-[08:11:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
-[08:11:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/phantomcreeper.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/supremebonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:17] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
-[08:11:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:26] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:44] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:44] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:44] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:11:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
-[08:11:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
-[08:11:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
-[08:12:26] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/skeletonthrasher.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:12:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
-[08:12:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
-[08:12:43] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:12:51] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:12:51] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/skeletonthrasher.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:12:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
-[08:12:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
-[08:12:54] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/phantomcreeper.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:12:54] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/supremebonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:12:54] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:12:54] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:12:54] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:12:54] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:13:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
-[08:13:14] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_savage.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:13:14] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:13:20] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:13:26] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:13:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
-[08:13:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
-[08:13:29] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeletondeamon.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:13:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
-[08:13:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
-[08:13:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/underminer_0.png
-[08:13:49] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:13:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:14:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[08:14:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
-[08:14:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
-[08:14:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
-[08:14:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
-[08:14:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[08:14:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/phantomcreeper.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:14:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/supremebonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:14:13] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:14:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:14:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:14:13] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_savage.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:14:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeletondeamon.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:14:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
-[08:14:26] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:14:26] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:14:26] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:15:09] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:15:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
-[08:15:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
-[08:15:23] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/supremebonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:15:23] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:15:23] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeletondeamon.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:15:23] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:15:23] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[08:15:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/crow.png
-[12:47:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[12:47:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/skeletonthrasher.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombieclown.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiefisherman.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/maggot.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/fallenchaosknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
-[12:47:29] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:29] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
-[12:47:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
-[12:47:33] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:38] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:38] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:47:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
-[12:47:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
-[12:47:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:48:05] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:48:05] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:48:05] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:48:05] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:48:05] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:48:05] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:48:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
-[12:48:08] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:48:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
-[12:48:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
-[12:48:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
-[12:48:23] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:48:23] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:48:53] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:48:53] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:03] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
-[12:49:06] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
-[12:49:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
-[12:49:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
-[12:49:06] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:06] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:06] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:06] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:06] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:06] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:06] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
-[12:49:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
-[12:49:10] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
-[12:49:10] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:43] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:56] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_iron_mace.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:59] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:49:59] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:50:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
-[12:50:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
-[12:50:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
-[12:50:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
-[12:50:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
-[12:50:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
-[12:50:03] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:50:03] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_iron_mace.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:50:03] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:50:03] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:50:12] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:51:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
-[12:51:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
-[12:51:17] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:51:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:51:17] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:51:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
-[12:51:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
-[12:51:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
-[12:51:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_redblue.png
-[12:51:40] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:51:40] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:51:40] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage_shield.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:51:40] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_savage.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:51:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
-[12:51:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[12:52:48] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:52:48] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:52:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
-[12:52:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[12:52:52] [Render thread/WARN] [JMLogger] orcz:textures/entities/gob_snot.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:52:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
-[12:52:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
-[12:52:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
-[12:53:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
-[12:53:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
-[12:53:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
-[12:53:13] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage_shield.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:53:13] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_savage_2sword.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:53:13] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage_2sword.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:53:13] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:53:13] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage_weridboy_necro.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:53:13] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_savage.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:53:20] [Render thread/WARN] [JMLogger] orcz:textures/entities/spec_squig_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:53:20] [Render thread/WARN] [JMLogger] orcz:textures/entities/ring.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:53:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
-[12:53:53] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:53:53] [Render thread/WARN] [JMLogger] orcz:textures/entities/gob_snot.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:53:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
-[12:53:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
-[12:53:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
-[12:53:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
-[12:53:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[12:53:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
-[12:53:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
-[12:53:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
-[12:54:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
-[12:54:24] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:54:52] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_savage.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:54:52] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage_weird.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:55:04] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage_weridboy_necro.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:55:04] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:55:04] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_savage_2sword.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:55:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
-[12:55:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
-[12:55:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
-[12:55:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
-[12:55:13] [Render thread/WARN] [JMLogger] seadwellers:textures/entities/mermorph_river.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:55:13] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:55:13] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:55:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
-[12:55:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:55:13] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage_weridboy_necro.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:55:13] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:55:13] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_savage_2sword.png doesn't have /entity/ in path, so can't look for /entity_icon/
-[12:55:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
-[12:55:43] [Render thread/INFO] [JourneymapClient] Mapping halted in /home/malaganator/minecraft/RPG Soul Like/journeymap/data/mp/Servidor~de~Minecraft_1591bbed~a7cf~4708~95d3~d5f1bec07a61/minecraft:overworld
+CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.18, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.9.18, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.9.18, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
+[19:01:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[19:01:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[19:01:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[19:01:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[19:01:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[19:01:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[19:01:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[19:01:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[19:01:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[19:01:02] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[19:01:02] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 208.15ms
+[19:01:09] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[19:01:09] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[19:01:09] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[19:01:09] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[19:01:09] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 153.59ms
+[19:01:31] [Netty Epoll Client IO #0/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[19:01:45] [Render thread/INFO] [JourneymapClient] World UID is set to: 1591bbed-a7cf-4708-95d3-d5f1bec07a61
+[19:01:48] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for projectvibrantjourneys
+[19:01:48] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for create
+[19:01:48] [Render thread/INFO] [ModBlockDelegate] Custom modded block handling enabled for biomesoplenty
+[19:01:48] [Render thread/INFO] [WaypointStore] Loaded 8 waypoints from /home/malaganator/minecraft/RPG Soul Like/journeymap/data/mp/Servidor~de~Minecraft_1591bbed~a7cf~4708~95d3~d5f1bec07a61/waypoints
+[19:01:48] [Render thread/INFO] [JourneymapClient] Mapping started in /home/malaganator/minecraft/RPG Soul Like/journeymap/data/mp/Servidor~de~Minecraft_1591bbed~a7cf~4708~95d3~d5f1bec07a61/overworld. Memory: 5200MB total, 1328MB free 
+[19:01:48] [Render thread/INFO] [WaypointGroupStore] Loaded WaypointGroups file /home/malaganator/minecraft/RPG Soul Like/journeymap/data/mp/Servidor~de~Minecraft_1591bbed~a7cf~4708~95d3~d5f1bec07a61/waypoints/waypoint_groups.json
+[19:01:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:01:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:01:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:01:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:01:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[19:01:49] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:01:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:01:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:01:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:01:49] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:01:49] [Render thread/INFO] [ChatLog] JourneyMap: Presione [;]
+[19:02:12] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:02:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/underminer_dwarf.png
+[19:03:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/phantomcreeper.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:03:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:03:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:04:06] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:04:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:04:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:04:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:04:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:04:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[19:04:15] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:04:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:04:15] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:04:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:04:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:04:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:04:31] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:04:34] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_iron_shield.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:04:34] [Render thread/WARN] [JMLogger] orcz:textures/entities/neworcsavagetwoswordiron.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:04:34] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_iron_mace.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:04:34] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage_weridboy_necro.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:05:37] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/supremebonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:05:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:05:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:05:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:05:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:05:53] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:05:53] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:05:53] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:05:53] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage_weridboy_necro.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:05:53] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:05:53] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:06:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[19:06:32] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:06:38] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:07:57] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:08:29] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
+[19:08:31] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:08:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[19:08:33] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:08:41] [Render thread/INFO] [JourneymapClient] Mapping halted in /home/malaganator/minecraft/RPG Soul Like/journeymap/data/mp/Servidor~de~Minecraft_1591bbed~a7cf~4708~95d3~d5f1bec07a61/minecraft:overworld
+[19:08:45] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[19:08:45] [Render thread/INFO] [JourneymapClient] World UID is set to: null
+[19:17:53] [Netty Epoll Client IO #1/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[19:18:02] [Render thread/INFO] [JourneymapClient] World UID is set to: 1591bbed-a7cf-4708-95d3-d5f1bec07a61
+[19:18:03] [Render thread/INFO] [WaypointStore] Loaded 8 waypoints from /home/malaganator/minecraft/RPG Soul Like/journeymap/data/mp/Servidor~de~Minecraft_1591bbed~a7cf~4708~95d3~d5f1bec07a61/waypoints
+[19:18:03] [Render thread/INFO] [JourneymapClient] Mapping started in /home/malaganator/minecraft/RPG Soul Like/journeymap/data/mp/Servidor~de~Minecraft_1591bbed~a7cf~4708~95d3~d5f1bec07a61/overworld. Memory: 5200MB total, 1204MB free 
+[19:19:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[19:19:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
+[19:19:11] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/fallenchaosknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:19:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/pumpkinspirit2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:19:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bloodygadfly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:19:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for cataclysm:textures/entity_icon/deepling/lionfish.png
+[19:19:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:19:45] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:19:45] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:19:45] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/pumpkinspirit2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:20:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[19:20:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:20:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:20:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[19:20:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:20:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:20:21] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:20:24] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:20:34] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:20:34] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:20:53] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:21:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:21:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for cataclysm:textures/entity_icon/deepling/deepling_1.png
+[19:21:19] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:21:48] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:22:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[19:22:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:22:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:22:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:22:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:22:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[19:22:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[19:22:35] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:22:35] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:22:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:22:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:23:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/phantomcreeper.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:23:46] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:23:55] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_iron_shield.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:23:55] [Render thread/WARN] [JMLogger] orcz:textures/entities/neworcsavagetwoswordiron.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:24:05] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/gluttonfish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:24:46] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:25:26] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:25:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for cataclysm:textures/entity_icon/deepling/lionfish.png
+[19:25:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for cataclysm:textures/entity_icon/deepling/deepling_angler.png
+[19:25:36] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:25:51] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:25:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:25:51] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:25:51] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:25:51] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:25:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for cataclysm:textures/entity_icon/deepling/lionfish.png
+[19:25:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for cataclysm:textures/entity_icon/deepling/deepling_angler.png
+[19:25:51] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:25:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:25:55] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:25:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:25:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:26:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[19:26:52] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombieclown.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:27:04] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:27:20] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:27:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:27:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:27:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:27:51] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:27:51] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:27:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for cataclysm:textures/entity_icon/deepling/lionfish.png
+[19:27:51] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:27:51] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:27:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:28:36] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:28:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[19:28:36] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:28:44] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:29:01] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:29:01] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:29:01] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/phantomcreeper.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:29:26] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:29:30] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:29:30] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:29:59] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:29:59] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:29:59] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:29:59] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:29:59] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:29:59] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:29:59] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:30:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:30:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:30:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:30:04] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:30:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:30:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[19:30:11] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:30:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[19:30:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[19:30:23] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:30:23] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:30:37] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:30:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[19:31:01] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/gluttonfish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:31:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
+[19:31:11] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:31:11] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:31:22] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/pumpkinspirit2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:02] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:02] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombieclown.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:02] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/phantomcreeper.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:32:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:32:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:32:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:32:19] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:19] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:19] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:19] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:19] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:19] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:19] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:19] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombieclown.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:19] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/phantomcreeper.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:19] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:25] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:32:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[19:32:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
+[19:33:21] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiefisherman.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:33:21] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:33:30] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:33:30] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:33:30] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:33:56] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:04] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:04] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/phantomcreeper.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:04] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:04] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombieclown.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:04] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:04] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:04] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:34:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:34:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:34:24] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:24] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:24] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:24] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:37] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:34:53] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:53] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:34:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for epicsamurai:textures/entity_icon/enenra.png
+[19:34:53] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:35:32] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:35:54] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:36:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:36:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:36:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:36:17] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:36:17] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:36:17] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:36:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:36:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:36:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombieclown.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:36:17] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:36:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/phantomcreeper.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:36:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/skeletonthrasher.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:36:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:36:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:36:26] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:36:34] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:36:51] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:37:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:37:29] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:37:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:37:33] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:38:46] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/gluttonfish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:38:46] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/fallenchaosknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:39:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:39:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:39:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:39:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:39:02] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/gluttonfish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:39:02] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:39:02] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:39:02] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:39:02] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:39:02] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:39:02] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/fallenchaosknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:39:05] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:39:37] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:39:48] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:40:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for cataclysm:textures/entity_icon/deepling/deepling_1.png
+[19:40:27] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:40:59] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:40:59] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:41:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:41:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:41:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:41:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:41:13] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:41:13] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:41:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:41:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:41:13] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:41:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[19:41:50] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:42:31] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/nightmarestalker2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:42:31] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:42:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
+[19:43:25] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:44:18] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:44:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[19:44:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for cataclysm:textures/entity_icon/deepling/deepling_1.png
+[19:44:42] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:44:46] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:44:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:44:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:44:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:44:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:44:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[19:44:50] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:44:50] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:44:50] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:44:50] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:44:50] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:44:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cataclysm:textures/entity_icon/deepling/deepling_1.png
+[19:44:50] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/nightmarestalker2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:44:56] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:46:58] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:47:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[19:47:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for mythicmounts:textures/entity_icon/groundlizard_mount3.png
+[19:47:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for mythicmounts:textures/entity_icon/groundlizard_mount.png
+[19:48:08] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:48:22] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:48:22] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombieclown.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:49:53] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:49:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[19:49:53] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/skeletonthrasher.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:49:53] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:49:53] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:49:53] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:49:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
+[19:49:58] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:50:48] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:01] [Render thread/WARN] [JMLogger] seadwellers:textures/entities/mermorph_axolotl.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:51:01] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:01] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:01] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:01] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:01] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:01] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:51:06] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:51:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[19:51:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[19:51:06] [Render thread/WARN] [JMLogger] seadwellers:textures/entities/mermorph_axolotl.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:12] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:12] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:21] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombieclown.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:36] [Render thread/WARN] [JMLogger] orcz:textures/entities/neworcsavagetwoswordiron.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:36] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_iron_mace.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:36] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:36] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:39] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage_weridboy_necro.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:51:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[19:51:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:51:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[19:52:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
+[19:52:06] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:52:11] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:52:11] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/pumpkinspirit2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:52:20] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:53:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:53:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:53:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:53:15] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:15] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:15] [Render thread/WARN] [JMLogger] orcz:textures/entities/orc_savage_weridboy_necro.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:15] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[19:53:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[19:53:22] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiesinabarrel.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:27] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:27] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:27] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombieclown.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:53:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[19:53:30] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:54:11] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/maggot.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:54:11] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:54:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/gluttonfish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:55:41] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:56:35] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:56:35] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:56:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/maggot.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:56:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:56:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:56:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:56:35] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:56:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:56:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:56:55] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/gluttonfish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:56:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[19:56:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[19:56:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:56:55] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:56:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:56:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:56:55] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:57:19] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:58:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:58:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:58:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[19:58:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[19:58:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[19:58:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[19:58:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[19:58:49] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:58:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[19:58:49] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:58:49] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:58:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:58:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:58:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:59:10] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[19:59:10] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:00:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[20:00:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:01:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[20:01:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[20:01:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[20:01:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[20:01:05] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:01:05] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:01:05] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:01:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[20:01:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[20:01:13] [Render thread/WARN] [JMLogger] seadwellers:textures/entities/mermorph_axolotl.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:01:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:01:17] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:01:22] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:01:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for cataclysm:textures/entity_icon/deepling/deepling_brute.png
+[20:01:52] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:02:12] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:02:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[20:02:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[20:02:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[20:02:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[20:02:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[20:02:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[20:02:27] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:02:27] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:02:27] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:02:27] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:02:27] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:02:47] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:02:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[20:03:01] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:03:08] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:03:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for epicsamurai:textures/entity_icon/enenra.png
+[20:03:35] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:03:39] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:03:39] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:03:39] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:03:39] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:03:39] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:03:39] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:03:39] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:03:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for epicsamurai:textures/entity_icon/enenra.png
+[20:03:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[20:03:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[20:03:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[20:03:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[20:03:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[20:03:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[20:03:50] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/fallenchaosknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:04:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
+[20:04:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:05:10] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:05:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[20:05:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[20:05:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[20:05:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[20:05:48] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:05:48] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:05:48] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:05:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[20:05:52] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:06:16] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[20:06:59] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/fallenchaosknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:06:59] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:02] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:02] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:02] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:02] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[20:09:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[20:09:06] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:06] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:06] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:06] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:06] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:06] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:06] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[20:09:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[20:09:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[20:09:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[20:09:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[20:09:11] [Render thread/WARN] [JMLogger] seadwellers:textures/entities/mermorph_axolotl.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:25] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/nightmarestalker2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
+[20:09:25] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:25] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:37] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:37] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/direhoundleader.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:37] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombieclown.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:46] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:09:49] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiefisherman.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:11:20] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/skeletonthrasher.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:11:20] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:10] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:10] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombieclown.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:10] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:10] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:10] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[20:12:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/skeletonthrasher.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:15] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:28] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:34] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:12:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[20:13:08] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:13:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
+[20:13:24] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/pumpkinspirit2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:13:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_redblue.png
+[20:13:27] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:13:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[20:13:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[20:13:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[20:13:32] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:14:29] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[20:15:04] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:15:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[20:15:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[20:15:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[20:15:11] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:15:11] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:15:11] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:15:11] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/skeletonthrasher.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:15:11] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:15:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[20:15:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_redblue.png
+[20:15:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:15:47] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:16:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[20:16:07] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:16:39] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:17:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[20:17:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[20:17:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[20:17:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[20:17:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[20:17:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[20:17:32] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:17:32] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:17:32] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:17:32] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:17:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[20:17:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_redblue.png
+[20:17:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/cockroach.png
+[20:17:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:19:08] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/maggot.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:19:12] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:19:39] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/nightmarestalker2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:19:39] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
+[20:20:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[20:20:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[20:20:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[20:20:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[20:20:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[20:20:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[20:20:34] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:20:34] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:20:34] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/maggot.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:20:34] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/nightmarestalker2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:20:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
+[20:20:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_redblue.png
+[20:20:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[20:21:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
+[20:21:30] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:16] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/skeletonthrasher.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:16] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombieclown.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:23:37] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:24:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:24:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:24:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[20:24:53] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:25:26] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:25:26] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:26:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[20:26:23] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:26:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for irons_spellbooks:textures/entity_icon/necromancer.png
+[20:26:23] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/skeletonthrasher.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:26:23] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:26:29] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[20:26:29] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_blue.png
+[20:26:29] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:26:39] [Render thread/WARN] [JMLogger] seadwellers:textures/entities/mermorph_axolotl.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:26:39] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:27:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[20:27:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[20:27:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[20:27:24] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:27:35] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:27:51] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:27:51] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:28:53] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:28:59] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:29:05] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/phantomcreeper.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:29:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
+[20:29:22] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:29:25] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:29:25] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:29:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:29:28] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/nightmarestalker2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:29:32] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/fallenchaosknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:29:32] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:29:38] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:30:07] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:30:10] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/nightmarestalker.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:30:20] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:30:45] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:30:45] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:30:45] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:30:45] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:30:45] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:30:45] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:30:45] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:30:45] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:30:45] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bonescaller.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:30:45] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:31:07] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:31:07] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:31:19] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[20:31:19] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:31:30] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:31:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[20:31:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[20:31:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
+[20:31:37] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:31:37] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:31:37] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:31:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for epicsamurai:textures/entity_icon/enenra.png
+[20:31:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[20:31:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[20:31:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[20:31:43] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/bloodygadfly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:31:49] [Render thread/WARN] [JMLogger] seadwellers:textures/entities/mermorph_axolotl.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:31:49] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:32:12] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/fallenchaosknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:33:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[20:33:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[20:33:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[20:33:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[20:33:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_yellow.png
+[20:33:18] [Render thread/WARN] [JMLogger] gamma_beasts:textures/entities/careyatrosc.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:33:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[20:33:18] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:33:18] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:33:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:33:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:33:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefly.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:33:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:33:18] [Render thread/WARN] [JMLogger] realmrpg_demons:textures/entities/chort.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:33:18] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/dreadhound.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:33:33] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/swarmer.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:33:41] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/rottenzombie.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:34:02] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/shyspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:34:15] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombieclown.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:34:20] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiefisherman.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:34:30] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:35:07] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/witherstrider.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:35:07] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:35:07] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/skeletonthrasher.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:35:07] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:35:07] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/decrepitskeletonbomb.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:35:12] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:36:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[20:39:38] [Render thread/WARN] [JMLogger] orcz:textures/entities/goblin_cammo.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:39:38] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombieclown.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:39:38] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:39:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for ecologics:textures/entity_icon/coconut_crab.png
+[20:39:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_0.png
+[20:39:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_1.png
+[20:39:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/flying_fish_2.png
+[20:39:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/lobster_red.png
+[20:39:44] [Render thread/WARN] [JMLogger] orcz:textures/entities/wither_strike_texture.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:39:44] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/darkvortex.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:39:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for alexsmobs:textures/entity_icon/fly.png
+[20:40:04] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/corpsefish.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:40:20] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/babyskeleton2.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:40:25] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/restlessspirit.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:40:25] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/fallenchaosknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:40:52] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/zombiebruiser.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:40:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for epicsamurai:textures/entity_icon/enenra.png
+[20:40:58] [Render thread/WARN] [JMLogger] born_in_chaos_v1:textures/entities/doorknight.png doesn't have /entity/ in path, so can't look for /entity_icon/
+[20:41:00] [Render thread/INFO] [JourneymapClient] Mapping halted in /home/malaganator/minecraft/RPG Soul Like/journeymap/data/mp/Servidor~de~Minecraft_1591bbed~a7cf~4708~95d3~d5f1bec07a61/minecraft:overworld
+[20:41:04] [Render thread/INFO] [MappingMonitorTask] World ID has been reset.
+[20:41:04] [Render thread/INFO] [JourneymapClient] World UID is set to: null

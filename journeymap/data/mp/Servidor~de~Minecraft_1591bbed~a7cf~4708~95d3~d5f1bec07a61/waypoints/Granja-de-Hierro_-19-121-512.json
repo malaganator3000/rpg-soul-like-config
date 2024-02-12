@@ -1,0 +1,24 @@
+{
+  "id": "Granja-de-Hierro_-19-121-512",
+  "name": "Granja de Hierro",
+  "groupName": ":Waystones",
+  "displayId": "a234a68a-453b-4732-a10b-69b49eb35b08",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--1-waypoint-icon.png",
+  "x": -19,
+  "y": 121,
+  "z": -512,
+  "r": 255,
+  "g": 255,
+  "b": 255,
+  "enable": true,
+  "type": "Normal",
+  "origin": "waystones",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

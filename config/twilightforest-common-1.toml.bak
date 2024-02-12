@@ -35,13 +35,10 @@ cloudBlockPrecipitationDistance = 32
 
 #Settings for all things related to the uncrafting table.
 ["Uncrafting Table"]
+	disableUncrafting = false
+	disableUncraftingTable = false
+	disableUncraftingRecipes = ["twilightforest:giant_log_to_oak_planks"]
+	flipRecipeList = false
 	blacklistedUncraftingModIds = []
 	flipIdList = false
-
-#Settings that are not reversible without consequences.
-["Dimension Settings"]
-	#If true, players spawning for the first time will spawn in the Twilight Forest.
-	newPlayersSpawnInTF = false
-	#If true, the return portal will spawn for new players that were sent to the TF if `spawn_in_tf` is true.
-	portalForNewPlayer = false
 
