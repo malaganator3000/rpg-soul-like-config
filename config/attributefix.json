@@ -682,6 +682,17 @@
         "value": 1024
       }
     },
+    "autoleveling:monster.explosion_damage_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
+      }
+    },
     "irons_spellbooks:lightning_spell_power": {
       "enabled": false,
       "min": {
@@ -845,6 +856,17 @@
       "max": {
         "default": 2,
         "value": 2
+      }
+    },
+    "autoleveling:monster.projectile_damage_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1000,
+        "value": 1000
       }
     },
     "irons_spellbooks:max_mana": {
